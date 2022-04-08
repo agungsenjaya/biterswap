@@ -1,17 +1,17 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
-  "homepage_url": "https://pancakeswap.finance",
+  "short_name": "Bitgertswap",
+  "name": "Bitgertswap",
+  "description": "Best token investment for the long term",
+  "homepage_url": "https://bitgertswap.finance/",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1FC7D4",
+  "theme_color": "#f47b02",
   "background_color": "#ffffff",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
+      "src": "logo.png",
+      "type": "image/png",
       "sizes": "16x16"
     },
     {

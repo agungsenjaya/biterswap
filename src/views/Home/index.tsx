@@ -62,8 +62,8 @@ const Home: React.FC = () => {
                 <h1 className="text-white display-6 fw-bold">Welcome to the Moon invest Bitgertswap Token</h1>
                 <Text mb="2" className="text-white">Bitgertswap is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</Text>
                 <div className="d-flex justify-content-center">
-                  <Link className="jpszRG rounded-pill " href="#">Get Bitgertswap</Link>
-                  <Link className="jpszRG rounded-pill  ms-3" target="_blank" href="pdf/Whitepaper_V.1.pdf">Whitepaper</Link>
+                  <Link className="btn-bit rounded-pill " href="#">Get Bitgertswap</Link>
+                  <Link className="btn-bit rounded-pill  ms-3" target="_blank" href="pdf/Whitepaper_V.1.pdf">Whitepaper</Link>
                 </div>
             </div>
         </div>
@@ -106,10 +106,10 @@ const Home: React.FC = () => {
                 <Text mb="3">
                     Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
                 </Text>
-                <Link className="jpszRG rounded-pill " target="_blank" href="pdf/Whitepaper_V.1.pdf">Get Whitepaper</Link>
+                <Link className="btn-bit rounded-pill " target="_blank" href="pdf/Whitepaper_V.1.pdf">Get Whitepaper</Link>
             </div>
             <div className="col-md-6">
-                <img src="img/about.png" alt="" width="100%" />
+                <img src="images/about.png" alt="" width="100%" />
             </div>
         </div>
     </div>
@@ -231,14 +231,14 @@ const Home: React.FC = () => {
     <h1 className="text-center fw-bold text-bit mb-4 display-6">Our Features</h1>
         <div className="row">
             <div className="col-md-6 mb-3 mb-sm-0">
-                <img src="img/exchange.png" alt="" width="100%" />
+                <img src="images/exchange.png" alt="" width="100%" />
             </div>
             <div className="col-md-6 align-self-center">
                 <h3 className="fw-bold text-bit lead mb-3">Decentralized <br/> Exchange Bitgertswap</h3>
                 <Text mb="3">
                     Check is allowed to exchange for other tokens (ETC, BNB, USDT) on Bitgertswap Exchange Tools.
                 </Text>
-                <Link className="jpszRG rounded-pill " href="#">Comingsoon</Link>
+                <Link className="btn-bit rounded-pill " href="#">Comingsoon</Link>
             </div>
         </div>
     </div>
@@ -303,13 +303,13 @@ const Home: React.FC = () => {
     <div className="grad-1 p-3 rounded">
     <div className="row">
         <div className="col-md-4 col-6">
-            <img src="img/binance.png" alt="" width="100%" />
+            <img src="images/binance.png" alt="" width="100%" />
         </div>
         <div className="col-md-4 col-6">
-            <img src="img/coingecko.png" alt="" width="100%" />
+            <img src="images/coingecko.png" alt="" width="100%" />
         </div>
         <div className="col-md-4 col-6">
-            <img src="img/cmc.png" alt="" width="100%" />
+            <img src="images/cmc.png" alt="" width="100%" />
         </div>
     </div>
     </div>

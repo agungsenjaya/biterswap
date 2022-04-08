@@ -7,11 +7,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://t.me/Bitgertswap',
       },
       {
         label: t('Brand'),
-        href: 'https://docs.pancakeswap.finance/brand',
+        href: '#',
       },
     ],
   },
@@ -20,11 +20,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Customer Support'),
-        href: 'https://docs.pancakeswap.finance/contact-us/customer-support',
+        href: 'https://t.me/Bitgertswap',
       },
       {
         label: t('Troubleshooting'),
-        href: 'https://docs.pancakeswap.finance/help/troubleshooting',
+        href: 'https://t.me/Bitgertswap',
       },
     ],
   },
@@ -37,7 +37,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Careers'),
-        href: 'https://docs.pancakeswap.finance/hiring/become-a-chef',
+        href: '#',
       },
     ],
   },

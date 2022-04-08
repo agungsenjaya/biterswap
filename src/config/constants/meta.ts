@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
+  title: 'Bitgertswap',
   description:
     'The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://pancakeswap.finance/images/hero.png',
+  image: 'https://bitgertswap.finance/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -33,75 +33,75 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('PancakeSwap')}`,
+        title: `${t('Home')} | Bitgertswap`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('PancakeSwap')}`,
+        title: `${t('Exchange')} | Bitgertswap`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Add Liquidity')} | Bitgertswap`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Remove Liquidity')} | Bitgertswap`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Liquidity')} | Bitgertswap`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('PancakeSwap')}`,
+        title: `${t('Import Pool')} | Bitgertswap`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('PancakeSwap')}`,
+        title: `${t('Trading Battle')} | Bitgertswap`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('PancakeSwap')}`,
+        title: `${t('Prediction')} | Bitgertswap`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | Bitgertswap`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('PancakeSwap')}`,
+        title: `${t('Farms')} | Bitgertswap`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('PancakeSwap')}`,
+        title: `${t('Farm Auctions')} | Bitgertswap`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('PancakeSwap')}`,
+        title: `${t('Pools')} | Bitgertswap`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('PancakeSwap')}`,
+        title: `${t('Lottery')} | Bitgertswap`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('PancakeSwap')}`,
+        title: `${t('Initial Farm Offering')} | Bitgertswap`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | Bitgertswap`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('PancakeSwap')}`,
+        title: `${t('Voting')} | Bitgertswap`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('PancakeSwap')}`,
+        title: `${t('Proposals')} | Bitgertswap`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('PancakeSwap')}`,
+        title: `${t('Make a Proposal')} | Bitgertswap`,
       }
     case '/info':
       return {
@@ -120,23 +120,23 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('PancakeSwap')}`,
+        title: `${t('Overview')} | Bitgertswap`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('PancakeSwap')}`,
+        title: `${t('Collections')} | Bitgertswap`,
       }
     case '/nfts/activity':
       return {
-        title: `${t('Activity')} | ${t('PancakeSwap')}`,
+        title: `${t('Activity')} | Bitgertswap`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Profile')} | ${t('PancakeSwap')}`,
+        title: `${t('Profile')} | Bitgertswap`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('PancakeSwap')}`,
+        title: `${t('Pancake Squad')} | Bitgertswap`,
       }
     default:
       return null

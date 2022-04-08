@@ -504,18 +504,44 @@ const GlobalStyle = createGlobalStyle`
   .bg-bit {
     background-color: #f47b02;
   }
-  .btn-bit:hover {
-    color: #fff;
-    box-shadow:4px 2px 8px rgba(0,223,116,.6),2px 4px 8px rgba(0,122,255,.6)
-  }
+  
   .btn-bit {
-    color: #fff;
-    border: none;
-    background: linear-gradient(100.33deg,#f47b02 1.72%,#ac3030 112.18%);
-    // box-shadow: 4px 2px 8px rgb(0 223 116 / 25%), 2px 4px 8px rgb(0 122 255 / 25%);
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-letter-spacing: 0.03em;
+    -moz-letter-spacing: 0.03em;
+    -ms-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0;
+    -webkit-transition: background-color 0.2s,opacity 0.2s;
+    transition: background-color 0.2s,opacity 0.2s;
+    height: 32px;
+    padding: 0 16px;
+    background-color: #f47b02;
+    color: white !important;
   }
+
   .hero {
-    background:url(https://bitgertswap.finance//img/bg-1.jpg);
+    background:url(https://bitgertswap.finance/images/bg-1.jpg);
     background-size: cover;
     background-position: bottom;
   }

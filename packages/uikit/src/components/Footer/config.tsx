@@ -7,11 +7,11 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Website",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://t.me/Bitgertswap",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://t.me/Bitgertswap",
       },
     ],
   },
@@ -20,11 +20,11 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "https://t.me/Bitgertswap",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://t.me/Bitgertswap",
       },
     ],
   },
@@ -37,7 +37,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "#",
       },
     ],
   },
@@ -47,17 +47,17 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/pancakeswap",
+    href: "#",
   },
   {
     label: "Telegram",
     icon: "Telegram",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://t.me/Bitgertswap",
   },
   {
     label: "Discord",
     icon: "Discord",
-    href: "https://discord.gg/pancakeswap",
+    href: "#",
   },
 ];
 
