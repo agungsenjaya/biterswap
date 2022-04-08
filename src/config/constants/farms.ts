@@ -13,7 +13,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+      56: '0x8FFf93E810a2eDaaFc326eDEE51071DA9d398E83',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,

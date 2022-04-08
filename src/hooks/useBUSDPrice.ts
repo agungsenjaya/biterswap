@@ -66,7 +66,7 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
 }
 
 export const useCakeBusdPrice = (): Price | undefined => {
-  const cakeBusdPrice = useBUSDPrice(tokens.brise)
+  const cakeBusdPrice = useBUSDPrice(tokens.cake)
   return cakeBusdPrice
 }
 

@@ -19,8 +19,13 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
   {
+    label: 'Home',
+    href: '/',
+    showItemsOnMobile: false,
+    items: [],
+  },
+  {
     label: t('Trade'),
-    fillIcon: SwapFillIcon,
     href: '/swap',
     showItemsOnMobile: false,
     items: [

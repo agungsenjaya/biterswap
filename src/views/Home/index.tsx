@@ -62,7 +62,7 @@ const Home: React.FC = () => {
                 <h1 className="text-white display-6 fw-bold">Welcome to the Moon invest Bitgertswap Token</h1>
                 <Text mb="2" className="text-white">Bitgertswap is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</Text>
                 <div className="d-flex justify-content-center">
-                  <Link className="btn-bit rounded-pill " href="#">Get Bitgertswap</Link>
+                  <Link className="btn-bit rounded-pill " href="https://bscscan.com/token/0x8FFf93E810a2eDaaFc326eDEE51071DA9d398E83" target="_blank">Detail Contract</Link>
                   <Link className="btn-bit rounded-pill  ms-3" target="_blank" href="pdf/Whitepaper_V.1.pdf">Whitepaper</Link>
                 </div>
             </div>
@@ -79,8 +79,8 @@ const Home: React.FC = () => {
                 <div className="card grad-1 border-0">
                     <div className="">
                         <div className="card-body">
-                            <Text mb="2" className="mb-0 small">Total Holders</Text>
-                            <h2 className="">00</h2>
+                            <Text mb="2" className="mb-0 small text-white">Total Holders</Text>
+                            <h2 className="display-6">00</h2>
                         </div>
                     </div>
                 </div>
@@ -88,8 +88,8 @@ const Home: React.FC = () => {
                 <div className="col-md align-self-center">
                 <div className="card grad-1 border-0">
                         <div className="card-body">
-                            <Text mb="2" className="mb-0 small">Circulating Supply</Text>
-                            <h2 className="">00</h2>
+                            <Text mb="2" className="mb-0 small text-white">Circulating Supply</Text>
+                            <h2 className="display-6">00</h2>
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@ const Home: React.FC = () => {
                 <Text mb="3">
                     Check is allowed to exchange for other tokens (ETC, BNB, USDT) on Bitgertswap Exchange Tools.
                 </Text>
-                <Link className="btn-bit rounded-pill " href="#">Comingsoon</Link>
+                <Link className="btn-bit rounded-pill " href="/swap">Comingsoon</Link>
             </div>
         </div>
     </div>
@@ -259,9 +259,9 @@ const Home: React.FC = () => {
                             </h2>
                             <div id="flush-one" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
+                                    <Text>Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
                                     Bitgertswap NFT) that give you reward by holding Simply Hold Bitgertswap tokens and get rewarded in Bitrise on every transaction! Out auto-claim feature means your Bitrise Rewards Will be automatically sent to your
-                                    wallet
+                                    wallet</Text>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +273,7 @@ const Home: React.FC = () => {
                             </h2>
                             <div id="flush-two" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    In order to provide the best and most decentralized trading experience, Bitgertswap want to began its cross-chain ventures to Polygon as of January 1st 2023.
+                                     <Text>In order to provide the best and most decentralized trading experience, Bitgertswap want to began its cross-chain ventures to Polygon as of January 1st 2023.</Text>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +285,7 @@ const Home: React.FC = () => {
                             </h2>
                             <div id="flush-three" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    Bitgertswap will be a native coin in the raca-metaverse, we want to take the opportunity to be able to join the raca-metaverse like babycake and pancake.
+                                    <Text>Bitgertswap will be a native coin in the bitrise-metaverse, we want to take the opportunity to be able to join the bitrise-metaverse like babycake and pancake.</Text>
                                 </div>
                             </div>
                         </div>

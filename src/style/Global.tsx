@@ -569,6 +569,11 @@ const GlobalStyle = createGlobalStyle`
   h1,h2,h3,h4,h5 {
     font-family: 'Kanit';
   }
+  .wZGlY:first-child {
+    text-transform: capitalize;
+    font-family: 'Kanit';
+    font-weight: 400;
+  }
   .cjKWon:first-child {
     text-transform: capitalize;
     font-family: 'Kanit';
