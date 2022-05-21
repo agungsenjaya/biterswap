@@ -104,7 +104,7 @@ const Home: React.FC = () => {
             <div className="col-md-6 align-self-center mb-3 mb-sm-0">
                 <h1 className="text-bit fw-bold display-6 mb-3">What is <br/> Bitgertswap Token</h1>
                 <Text mb="3">
-                    Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
+                    Launched on the Binance Smart Chain (BSC), Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
                 </Text>
                 <Link className="btn-bit rounded-pill " target="_blank" href="pdf/Whitepaper_V.1.pdf">Get Whitepaper</Link>
             </div>
@@ -259,7 +259,7 @@ const Home: React.FC = () => {
                             </h2>
                             <div id="flush-one" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    <Text>Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
+                                    <Text>Launched on the Binance Smart Chain (BSC), Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
                                     Bitgertswap NFT) that give you reward by holding Simply Hold Bitgertswap tokens and get rewarded in Bitrise on every transaction! Out auto-claim feature means your Bitrise Rewards Will be automatically sent to your
                                     wallet</Text>
                                 </div>
